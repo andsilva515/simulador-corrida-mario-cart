@@ -49,3 +49,12 @@ const player6 = {
 };
 
 
+async function rollDice() {
+    return Math.floor(Math.random() * 6)  + 1;
+}
+
+async function main() {
+    console.log("hello");
+}
+
+main();
